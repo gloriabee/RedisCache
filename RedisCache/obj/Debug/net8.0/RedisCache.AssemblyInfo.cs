@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RedisCache")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+54001bd05008ea9520c4f765eebb140f508891b4")]
 [assembly: System.Reflection.AssemblyProductAttribute("RedisCache")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RedisCache")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
