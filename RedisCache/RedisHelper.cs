@@ -10,6 +10,7 @@ namespace RedisCache
     internal class RedisHelper
     {
         private static IDatabase redisDatabase;
+        //private static IServer redisServer;
         public static IDatabase Database
         {
             get
@@ -22,7 +23,7 @@ namespace RedisCache
             // creating connection
             var connection = ConnectionMultiplexer.Connect("localhost:6379");
             redisDatabase=connection.GetDatabase();
-
+            //redisServer= connection.GetServer("localhost:6379");
 
         }
     }
